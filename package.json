@@ -9,7 +9,10 @@
     "lint": "sunlint --all --input=src",
     "lint:changed": "sunlint --all --changed-files",
     "lint:security": "sunlint --security --input=src",
-    "server": "npx json-server --watch db/db.json --port 3001"
+    "server": "npx json-server --watch db/db.json --port 3001",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -41,6 +44,7 @@
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
+    "@types/jest": "^30.0.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

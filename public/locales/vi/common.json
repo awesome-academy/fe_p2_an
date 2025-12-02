@@ -1,0 +1,83 @@
+{
+  "loading": "Đang tải...",
+  "error_loading": "Lỗi tải dữ liệu",
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "tours": "Tour du lịch",
+    "login": "Đăng nhập"
+  },
+  "footer": {
+    "brand_desc": "Travel giúp các doanh nghiệp quản lý thanh toán dễ dàng.",
+    "company": "Công ty",
+    "about_us": "Về chúng tôi",
+    "careers": "Tuyển dụng",
+    "blog": "Tin tức",
+    "pricing": "Bảng giá",
+    "destinations": "Điểm đến",
+    "newsletter": "Đăng ký nhận tin",
+    "email_placeholder": "Địa chỉ email của bạn",
+    "subscribe": "Đăng ký",
+    "newsletter_desc": "* Chúng tôi sẽ gửi cập nhật hàng tuần về các gói tour tốt nhất.",
+    "copyright": "Bản quyền @ Xpro 2022. Đã đăng ký bản quyền."
+  },
+  "hero": {
+    "subtitle": "Dù bạn đi đâu, chúng tôi sẽ đưa bạn đến đó",
+    "search_placeholder": "Bạn muốn đi đâu?",
+    "travel_type": "Loại hình",
+    "duration": "Thời gian",
+    "submit": "Tìm kiếm",
+    "booked_info": "2.500 người đã đặt sự kiện Tomorrowland trong 24 giờ qua",
+    "scroll": "Cuộn xuống"
+  },
+  "services": {
+    "category": "DANH MỤC",
+    "title": "Dịch Vụ Tốt Nhất",
+    "guided_tours": "Hướng Dẫn Viên",
+    "best_flights": "Chuyến Bay Tốt Nhất",
+    "religious_tours": "Du Lịch Tôn Giáo",
+    "medical_insurance": "Bảo Hiểm Y Tế",
+    "desc": "Chúng tôi cung cấp những trải nghiệm tuyệt vời nhất cho chuyến đi của bạn."
+  },
+  "honeymoon": {
+    "subtitle": "ƯU ĐÃI TUẦN TRĂNG MẬT",
+    "title": "Những Điểm Đến Nhiệt Đới Lãng Mạn",
+    "desc": "Mang đến trải nghiệm tuyệt vời với hành trình được thiết kế dành riêng cho các cặp đôi. Tận hưởng những khoảnh khắc đặc biệt trong không gian yên bình và tuyệt đẹp.",
+    "button": "Xem Gói Tour",
+    "vertical_text": "Gói Tuần Trăng Mật"
+  },
+  "fast_easy": {
+    "subtitle": "Nhanh & Dễ Dàng",
+    "title": "Đặt Khu Nghỉ Dưỡng Yêu Thích Của Bạn",
+    "step1_title": "Chọn Điểm Đến",
+    "step1_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.",
+    "step2_title": "Kiểm Tra Tình Trạng",
+    "step2_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.",
+    "step3_title": "Xuất Phát",
+    "step3_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus."
+  },
+  "promotion": {
+    "title_1": "Hãy Làm Cho",
+    "title_2": "Kỳ Nghỉ Tiếp Theo Của Bạn Tuyệt Vời Hơn"
+  },
+  "europe": {
+    "subtitle": "KHUYẾN MÃI",
+    "title": "Chúng Tôi Mang Đến Các Tour Tham Quan Châu Âu Tốt Nhất",
+    "desc": "Những trải nghiệm tuyệt vời với hành trình được thiết kế chi tiết. Các điểm tham quan nổi tiếng, cảnh đẹp, văn hóa và nét đặc trưng châu Âu đang chờ bạn khám phá.",
+    "button": "Xem Gói Tour",
+    "decor_text": "Khung Cảnh Hùng Vĩ"
+  },
+  "explore": {
+    "subtitle": "KHUYẾN MÃI",
+    "nature_title": "Khám Phá Thiên Nhiên",
+    "cities_title": "Khám Phá Thành Phố",
+    "button": "Xem Gói Tour"
+  },
+  "trending": {
+    "subtitle": "XU HƯỚNG",
+    "title": "Các Gói Tour Đang Được Quan Tâm",
+    "days": "Ngày",
+    "people_going": "Người Tham Gia",
+    "explore_now": "Khám Phá Ngay"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "users": [
+    {
+      "id": "user_l6vj5k2e_admin",
+      "email": "admin@booking.com",
+      "username": "superadmin",
+      "password": "hashed_password_123",
+      "phoneNumber": "0901234567",
+      "role": "admin",
+      "isActive": true,
+      "avatar": "https://i.pravatar.cc/150?u=admin",
+      "bankAccount": {
+        "bankName": "Vietcombank",
+        "accountNumber": "001100223344",
+        "accountHolder": "SUPER ADMIN"
+      },
+      "createdAt": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "user_k8m9p4z1_guest",
+      "email": "user@gmail.com",
+      "username": "johndoe",
+      "password": "hashed_password_456",
+      "phoneNumber": "0987654321",
+      "role": "user",
+      "isActive": true,
+      "avatar": "https://i.pravatar.cc/150?u=user",
+      "createdAt": "2023-06-15T10:30:00Z"
+    }
+  ],
+  "tours": [
+    {
+      "id": "tour_x9n2m3q1",
+      "name": {
+        "vi": "Khám phá Hạ Long Huyền Bí",
+        "en": "Discover Mysterious Ha Long Bay"
+      },
+      "description": {
+        "vi": "Trải nghiệm du thuyền 5 sao và tham quan hang động kỳ vĩ.",
+        "en": "Experience 5-star cruise and visit magnificent caves."
+      },
+      "category": {
+        "vi": "Biển đảo",
+        "en": "Island & Beach"
+      },
+      "price": 100,
+      "rating": 4.8,
+      "ratingCount": 120,
+      "destination": "Quảng Ninh",
+      "duration": {
+        "vi": "2 ngày 1 đêm",
+        "en": "2 days 1 night"
+      },
+      "startDate": "2024-06-15T08:00:00Z",
+      "included": {
+        "vi": ["Xe đưa đón 2 chiều", "Ăn trưa hải sản", "Vé tham quan"],
+        "en": ["2-way transfer", "Seafood lunch", "Entrance tickets"]
+      },
+      "notIncluded": {
+        "vi": ["Đồ uống cá nhân", "Tiền Tip"],
+        "en": ["Personal drinks", "Tips"]
+      },
+      "images": [
+        "https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg",
+        "https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg"
+      ],
+      "isFeatured": true,
+      "createdAt": "2023-12-01T00:00:00Z"
+    },
+    {
+      "id": "tour_j7k5l8w2",
+      "name": {
+        "vi": "Sapa - Thành phố trong sương",
+        "en": "Sapa - City in the Mist"
+      },
+      "description": {
+        "vi": "Chinh phục đỉnh Fansipan và khám phá văn hóa bản địa.",
+        "en": "Conquer Fansipan peak and explore indigenous culture."
+      },
+      "category": {
+        "vi": "Núi rừng",
+        "en": "Mountains"
+      },
+      "price": 72,
+      "rating": 4.5,
+      "ratingCount": 85,
+      "destination": "Lào Cai",
+      "duration": {
+        "vi": "3 ngày 2 đêm",
+        "en": "3 days 2 nights"
+      },
+      "startDate": "2024-06-20T07:00:00Z",
+      "included": {
+        "vi": ["Khách sạn 3 sao", "Xe giường nằm"],
+        "en": ["3-star hotel", "Sleeper bus"]
+      },
+      "notIncluded": {
+        "vi": ["Vé cáp treo"],
+        "en": ["Cable car ticket"]
+      },
+      "images": ["https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg"],
+      "isFeatured": false,
+      "createdAt": "2023-12-05T00:00:00Z"
+    },
+    {
+      "id": "tour_p4z1m9k8",
+      "name": {
+        "vi": "Mùa Thu Vàng Châu Âu",
+        "en": "Golden Autumn in Europe"
+      },
+      "description": {
+        "vi": "Hành trình qua Pháp - Thụy Sĩ - Ý ngắm lá vàng rơi.",
+        "en": "Journey through France - Switzerland - Italy watching falling yellow leaves."
+      },
+      "category": {
+        "vi": "Quốc tế",
+        "en": "International"
+      },
+      "price": 1800,
+      "rating": 4.9,
+      "ratingCount": 45,
+      "destination": "Paris, France",
+      "duration": {
+        "vi": "9 ngày 8 đêm",
+        "en": "9 days 8 nights"
+      },
+      "startDate": "2024-10-10T00:00:00Z",
+      "included": {
+        "vi": ["Vé máy bay khứ hồi", "Visa Châu Âu", "Khách sạn 4 sao"],
+        "en": ["Round-trip flight tickets", "Schengen Visa", "4-star hotels"]
+      },
+      "notIncluded": {
+        "vi": ["Chi phí mua sắm", "Thuế thành phố"],
+        "en": ["Shopping expenses", "City tax"]
+      },
+      "images": ["https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg"],
+      "isFeatured": true,
+      "createdAt": "2024-01-10T00:00:00Z"
+    },
+    {
+      "id": "tour_v2n5x3q7",
+      "name": {
+        "vi": "Khám Phá Đảo Ngọc Phú Quốc",
+        "en": "Explore Pearl Island Phu Quoc"
+      },
+      "description": {
+        "vi": "Tắm biển Bãi Sao, lặn ngắm san hô và thưởng thức hải sản.",
+        "en": "Swim at Sao Beach, diving coral reefs and enjoy seafood."
+      },
+      "category": {
+        "vi": "Biển đảo",
+        "en": "Island & Beach"
+      },
+      "price": 128,
+      "rating": 4.7,
+      "ratingCount": 210,
+      "destination": "Kiên Giang",
+      "duration": {
+        "vi": "4 ngày 3 đêm",
+        "en": "4 days 3 nights"
+      },
+      "startDate": "2024-07-05T00:00:00Z",
+      "included": {
+        "vi": ["Vé máy bay", "Resort 5 sao", "Buffet sáng"],
+        "en": ["Flight tickets", "5-star Resort", "Breakfast buffet"]
+      },
+      "notIncluded": {
+        "vi": ["Vé VinWonders", "Chi phí cá nhân"],
+        "en": ["VinWonders ticket", "Personal expenses"]
+      },
+      "images": ["https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg"],
+      "isFeatured": true,
+      "createdAt": "2024-02-15T00:00:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev_h6j2k9l1",
+      "userId": "user_k8m9p4z1_guest",
+      "tourId": "tour_x9n2m3q1",
+      "rating": 5,
+      "comment": "Tour rất tuyệt vời, đồ ăn ngon!",
+      "images": ["https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg"],
+      "createdAt": "2024-05-05T12:00:00Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk_m5n8b2v4",
+      "userId": "user_k8m9p4z1_guest",
+      "tourId": "tour_x9n2m3q1",
+      "guestSize": 2,
+      "totalPrice": 200,
+      "bookingDate": "2024-05-01T10:00:00Z",
+      "checkInDate": "2024-06-15T00:00:00Z",
+      "status": "pending",
+      "paymentStatus": "unpaid",
+      "note": "Dị ứng tôm"
+    }
+  ]
+}

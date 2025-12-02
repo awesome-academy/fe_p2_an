@@ -1,0 +1,83 @@
+{
+  "loading": "Loading...",
+  "error_loading": "Error loading data",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "tours": "Tours",
+    "login": "Login"
+  },
+  "footer": {
+    "brand_desc": "Travel helps companies manage payments easily.",
+    "company": "Company",
+    "about_us": "About Us",
+    "careers": "Careers",
+    "blog": "Blog",
+    "pricing": "Pricing",
+    "destinations": "Destinations",
+    "newsletter": "Join Our Newsletter",
+    "email_placeholder": "Your email address",
+    "subscribe": "Subscribe",
+    "newsletter_desc": "* Will send you weekly updates for your better tour packages.",
+    "copyright": "Copyright @ Xpro 2022. All Rights Reserved."
+  },
+  "hero": {
+    "subtitle": "No matter where you’re going to, we’ll take you there",
+    "search_placeholder": "Where to?",
+    "travel_type": "Travel Type",
+    "duration": "Duration",
+    "submit": "Submit",
+    "booked_info": "2,500 people booked Tomorrowland Event in last 24 hours",
+    "scroll": "Scroll"
+  },
+  "services": {
+    "category": "CATEGORY",
+    "title": "We Offer Best Services",
+    "guided_tours": "Guided Tours",
+    "best_flights": "Best Flights Options",
+    "religious_tours": "Religious Tours",
+    "medical_insurance": "Medical insurance",
+    "desc": "sunt qui repellat saepe quo velit aperiam id aliquam placeat."
+  },
+  "honeymoon": {
+    "subtitle": "HONEYMOON SPECIALS",
+    "title": "Our Romantic Tropical Destinations",
+    "desc": "Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos. Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus illum aut optio quibusdam!",
+    "button": "View Packages",
+    "vertical_text": "Honeymoon Packages"
+  },
+  "fast_easy": {
+    "subtitle": "Fast & Easy",
+    "title": "Get Your Favourite Resort Bookings",
+    "step1_title": "Choose Destination",
+    "step1_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.",
+    "step2_title": "Check Availability",
+    "step2_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.",
+    "step3_title": "Let's Go",
+    "step3_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus."
+  },
+  "promotion": {
+    "title_1": "Let’s Make Your",
+    "title_2": "Next Holiday Amazing"
+  },
+  "europe": {
+    "subtitle": "PROMOTION",
+    "title": "We Provide You Best Europe Sightseeing Tours",
+    "desc": "Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos. Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus illum aut optio quibusdam!",
+    "button": "View Packages",
+    "decor_text": "Breath Taking Viewes"
+  },
+  "explore": {
+    "subtitle": "PROMOTION",
+    "nature_title": "Explore Nature",
+    "cities_title": "Explore Cities",
+    "button": "View Packages"
+  },
+  "trending": {
+    "subtitle": "TRENDY",
+    "title": "Our Trending Tour Packages",
+    "days": "Days",
+    "people_going": "People Going",
+    "explore_now": "Explore Now"
+  }
+}
