@@ -21,11 +21,20 @@ export function middleware(request: NextRequest) {
 
   if (pathnameIsMissingLocale) {
     const locale = fallbackLng
-
-    const newUrl = new URL(`/${locale}${pathname.startsWith('/') ? '' : '/'}${pathname}`, request.url)
-
-    return NextResponse.redirect(newUrl)
+    return NextResponse.redirect(new URL(`/${locale}${pathname.startsWith('/') ? '' : '/'}${pathname}`, request.url))
   }
+
+  const locale = languages.find((loc) => pathname.startsWith(`/${loc}`)) || fallbackLng
+
+  const hasAuthToken = request.cookies.has('auth_token')
+
+  const isAuthPage = pathname.includes('/login') || pathname.includes('/register')
+
+  if (hasAuthToken && isAuthPage) {
+    return NextResponse.redirect(new URL(`/${locale}`, request.url))
+  }
+
+  return NextResponse.next()
 }
 
 export const config = {

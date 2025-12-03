@@ -5,7 +5,10 @@
     "home": "Home",
     "about": "About",
     "tours": "Tours",
-    "login": "Login"
+    "login": "Login",
+    "my_account": "My Account",
+    "logout": "Log Out",
+    "signed_in_as": "Signed in as"
   },
   "footer": {
     "brand_desc": "Travel helps companies manage payments easily.",

@@ -3,6 +3,7 @@ import { languages } from '@/i18n/setting'
 import './globals.css'
 import I18nProvider from '@/app/components/provider/I18nProvider'
 import { Be_Vietnam_Pro, Lora } from 'next/font/google'
+import { Toaster } from 'react-hot-toast'
 
 const beVietnamPro = Be_Vietnam_Pro({
   weight: ['400', '500', '600', '700'],
@@ -34,7 +35,37 @@ export default async function LanguageLayout({
   return (
     <html lang={lng} suppressHydrationWarning>
       <body className={`${beVietnamPro.variable} ${lora.variable} bg-white font-sans text-black antialiased`}>
-        <I18nProvider lng={lng}>{children}</I18nProvider>
+        <I18nProvider lng={lng}>
+          {children}
+          <Toaster
+            position='top-right'
+            reverseOrder={false}
+            toastOptions={{
+              className: '',
+              duration: 5000,
+              style: {
+                background: '#363636',
+                color: '#fff'
+              },
+
+              success: {
+                duration: 3000,
+                iconTheme: {
+                  primary: '#4ade80',
+                  secondary: '#fff'
+                }
+              },
+
+              error: {
+                duration: 4000,
+                iconTheme: {
+                  primary: '#ef4444',
+                  secondary: '#fff'
+                }
+              }
+            }}
+          />
+        </I18nProvider>
       </body>
     </html>
   )
