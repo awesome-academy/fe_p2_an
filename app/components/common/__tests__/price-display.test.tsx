@@ -1,3 +1,7 @@
+beforeAll(() => {
+  jest.spyOn(console, 'warn').mockImplementation(() => {})
+})
+
 import { render, screen } from '@testing-library/react'
 import PriceDisplay from '../price-display'
 import * as navigation from 'next/navigation'

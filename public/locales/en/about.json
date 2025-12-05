@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "read": "READ",
+    "title": "About Us",
+    "subtitle": "Explore the World with Us"
+  },
+  "promotion": {
+    "subtitle": "PROMOTION",
+    "title": "We Provide You Best Europe Sightseeing Tours",
+    "desc": "Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos. Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus illum aut optio quibusdam!",
+    "button": "View Packages"
+  },
+  "tour_plans": {
+    "subtitle": "TREND",
+    "title": "Our Popular Tour Plans",
+    "desc": "Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos. Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus illum aut optio quibusdam!",
+    "vacations": "VACATIONS",
+    "honeymoon": "HONEYMOON",
+    "musical": "MUSICAL EVENTS"
+  }
+}

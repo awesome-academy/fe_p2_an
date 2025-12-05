@@ -21,6 +21,7 @@
   },
   "languages": ["typescript"],
   "include": ["src/**/*.ts", "src/**/*.tsx"],
+   "exclude": ["**/*.test.*", "**/*.generated.*", "utils/*"],
   "parserOptions": {
     "ecmaVersion": 2024,
     "sourceType": "module",

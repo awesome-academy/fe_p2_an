@@ -26,7 +26,6 @@ describe('Footer Component', () => {
   it('renders links with correct language prefix', () => {
     render(<Footer />)
 
-    // Kiểm tra link About Us có chứa /vi/about không
     const aboutLink = screen.getByText('footer.about_us').closest('a')
     expect(aboutLink).toHaveAttribute('href', '/vi/about')
 
@@ -41,11 +40,7 @@ describe('Footer Component', () => {
     const subscribeBtn = screen.getByText('footer.subscribe')
     const input = screen.getByPlaceholderText('footer.email_placeholder')
 
-    // Nhập email
     fireEvent.change(input, { target: { value: 'test@example.com' } })
-
-    // Submit form
-    // Vì code gốc chỉ có e.preventDefault(), test này đảm bảo nó không crash
     fireEvent.click(subscribeBtn)
 
     expect(input).toHaveValue('test@example.com')

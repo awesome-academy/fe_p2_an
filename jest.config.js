@@ -13,7 +13,7 @@ const config = {
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
 
   moduleNameMapper: {
-    '^@/(.*)$': '<rootDir>/app/$1'
+    '^@/(.*)$': '<rootDir>/$1'
   },
 
   collectCoverage: true,

@@ -26,6 +26,17 @@
       "isActive": true,
       "avatar": "https://i.pravatar.cc/150?u=user",
       "createdAt": "2023-06-15T10:30:00Z"
+    },
+    {
+      "id": "user_mifiaulay7sei",
+      "email": "baoan7604@gmail.com",
+      "username": "letungbaoan",
+      "password": "123456",
+      "role": "user",
+      "isActive": true,
+      "phoneNumber": "",
+      "createdAt": "2025-11-26T04:30:24.094Z",
+      "avatar": "https://i.pravatar.cc/150?u=baoan7604@gmail.com"
     }
   ],
   "tours": [
@@ -53,12 +64,26 @@
       },
       "startDate": "2024-06-15T08:00:00Z",
       "included": {
-        "vi": ["Xe đưa đón 2 chiều", "Ăn trưa hải sản", "Vé tham quan"],
-        "en": ["2-way transfer", "Seafood lunch", "Entrance tickets"]
+        "vi": [
+          "Xe đưa đón 2 chiều",
+          "Ăn trưa hải sản",
+          "Vé tham quan"
+        ],
+        "en": [
+          "2-way transfer",
+          "Seafood lunch",
+          "Entrance tickets"
+        ]
       },
       "notIncluded": {
-        "vi": ["Đồ uống cá nhân", "Tiền Tip"],
-        "en": ["Personal drinks", "Tips"]
+        "vi": [
+          "Đồ uống cá nhân",
+          "Tiền Tip"
+        ],
+        "en": [
+          "Personal drinks",
+          "Tips"
+        ]
       },
       "images": [
         "https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg",
@@ -91,14 +116,26 @@
       },
       "startDate": "2024-06-20T07:00:00Z",
       "included": {
-        "vi": ["Khách sạn 3 sao", "Xe giường nằm"],
-        "en": ["3-star hotel", "Sleeper bus"]
+        "vi": [
+          "Khách sạn 3 sao",
+          "Xe giường nằm"
+        ],
+        "en": [
+          "3-star hotel",
+          "Sleeper bus"
+        ]
       },
       "notIncluded": {
-        "vi": ["Vé cáp treo"],
-        "en": ["Cable car ticket"]
+        "vi": [
+          "Vé cáp treo"
+        ],
+        "en": [
+          "Cable car ticket"
+        ]
       },
-      "images": ["https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg"],
+      "images": [
+        "https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg"
+      ],
       "isFeatured": false,
       "createdAt": "2023-12-05T00:00:00Z"
     },
@@ -126,14 +163,30 @@
       },
       "startDate": "2024-10-10T00:00:00Z",
       "included": {
-        "vi": ["Vé máy bay khứ hồi", "Visa Châu Âu", "Khách sạn 4 sao"],
-        "en": ["Round-trip flight tickets", "Schengen Visa", "4-star hotels"]
+        "vi": [
+          "Vé máy bay khứ hồi",
+          "Visa Châu Âu",
+          "Khách sạn 4 sao"
+        ],
+        "en": [
+          "Round-trip flight tickets",
+          "Schengen Visa",
+          "4-star hotels"
+        ]
       },
       "notIncluded": {
-        "vi": ["Chi phí mua sắm", "Thuế thành phố"],
-        "en": ["Shopping expenses", "City tax"]
+        "vi": [
+          "Chi phí mua sắm",
+          "Thuế thành phố"
+        ],
+        "en": [
+          "Shopping expenses",
+          "City tax"
+        ]
       },
-      "images": ["https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg"],
+      "images": [
+        "https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg"
+      ],
       "isFeatured": true,
       "createdAt": "2024-01-10T00:00:00Z"
     },
@@ -161,14 +214,30 @@
       },
       "startDate": "2024-07-05T00:00:00Z",
       "included": {
-        "vi": ["Vé máy bay", "Resort 5 sao", "Buffet sáng"],
-        "en": ["Flight tickets", "5-star Resort", "Breakfast buffet"]
+        "vi": [
+          "Vé máy bay",
+          "Resort 5 sao",
+          "Buffet sáng"
+        ],
+        "en": [
+          "Flight tickets",
+          "5-star Resort",
+          "Breakfast buffet"
+        ]
       },
       "notIncluded": {
-        "vi": ["Vé VinWonders", "Chi phí cá nhân"],
-        "en": ["VinWonders ticket", "Personal expenses"]
+        "vi": [
+          "Vé VinWonders",
+          "Chi phí cá nhân"
+        ],
+        "en": [
+          "VinWonders ticket",
+          "Personal expenses"
+        ]
       },
-      "images": ["https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg"],
+      "images": [
+        "https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg"
+      ],
       "isFeatured": true,
       "createdAt": "2024-02-15T00:00:00Z"
     }
@@ -180,7 +249,9 @@
       "tourId": "tour_x9n2m3q1",
       "rating": 5,
       "comment": "Tour rất tuyệt vời, đồ ăn ngon!",
-      "images": ["https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg"],
+      "images": [
+        "https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg"
+      ],
       "createdAt": "2024-05-05T12:00:00Z"
     }
   ],

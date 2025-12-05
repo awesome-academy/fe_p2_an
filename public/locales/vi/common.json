@@ -5,7 +5,10 @@
     "home": "Trang chủ",
     "about": "Giới thiệu",
     "tours": "Tour du lịch",
-    "login": "Đăng nhập"
+    "login": "Đăng nhập",
+    "my_account": "Tài Khoản Của Tôi",
+    "logout": "Đăng Xuất",
+    "signed_in_as": "Đăng nhập bởi"
   },
   "footer": {
     "brand_desc": "Travel giúp các doanh nghiệp quản lý thanh toán dễ dàng.",
